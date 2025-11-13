@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.CalculatorTest" time="0.018" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.CalculatorTest" time="0.016" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/sabiralisk/oralce_labs/calculator-app/calculator-app/target/test-classes:/Users/sabiralisk/oralce_labs/calculator-app/calculator-app/target/classes:/Users/sabiralisk/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/sabiralisk/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/sabiralisk/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/sabiralisk/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/sabiralisk/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/sabiralisk/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="java.class.path" value="/Users/sabiralisk/oralce_labs/QA/cline-demos/calculator-app/target/test-classes:/Users/sabiralisk/oralce_labs/QA/cline-demos/calculator-app/target/classes:/Users/sabiralisk/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/sabiralisk/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/sabiralisk/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/sabiralisk/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/sabiralisk/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/sabiralisk/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -12,9 +12,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/sabiralisk/oralce_labs/calculator-app/calculator-app/target/surefire/surefirebooter-20251113122852524_3.jar /Users/sabiralisk/oralce_labs/calculator-app/calculator-app/target/surefire 2025-11-13T12-28-52_475-jvmRun1 surefire-20251113122852524_1tmp surefire_0-20251113122852524_2tmp"/>
+    <property name="sun.java.command" value="/Users/sabiralisk/oralce_labs/QA/cline-demos/calculator-app/target/surefire/surefirebooter-20251113124250708_3.jar /Users/sabiralisk/oralce_labs/QA/cline-demos/calculator-app/target/surefire 2025-11-13T12-42-50_666-jvmRun1 surefire-20251113124250708_1tmp surefire_0-20251113124250708_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/sabiralisk/oralce_labs/calculator-app/calculator-app/target/test-classes:/Users/sabiralisk/oralce_labs/calculator-app/calculator-app/target/classes:/Users/sabiralisk/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/sabiralisk/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/sabiralisk/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/sabiralisk/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/sabiralisk/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/sabiralisk/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/sabiralisk/oralce_labs/QA/cline-demos/calculator-app/target/test-classes:/Users/sabiralisk/oralce_labs/QA/cline-demos/calculator-app/target/classes:/Users/sabiralisk/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/sabiralisk/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/sabiralisk/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/sabiralisk/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/sabiralisk/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/sabiralisk/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/sabiralisk"/>
     <property name="user.language" value="en"/>
@@ -22,13 +22,13 @@
     <property name="java.version.date" value="2025-10-21"/>
     <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/sabiralisk/oralce_labs/calculator-app/calculator-app"/>
+    <property name="basedir" value="/Users/sabiralisk/oralce_labs/QA/cline-demos/calculator-app"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/sabiralisk/oralce_labs/calculator-app/calculator-app/target/surefire/surefirebooter-20251113122852524_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/sabiralisk/oralce_labs/QA/cline-demos/calculator-app/target/surefire/surefirebooter-20251113124250708_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1"/>
     <property name="user.name" value="sabiralisk"/>
@@ -43,7 +43,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/lf/j24wyv41223ckdwsq8_wsc7m0000gn/T/"/>
     <property name="java.version" value="25.0.1"/>
-    <property name="user.dir" value="/Users/sabiralisk/oralce_labs/calculator-app/calculator-app"/>
+    <property name="user.dir" value="/Users/sabiralisk/oralce_labs/QA/cline-demos/calculator-app"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testAdd" classname="com.example.CalculatorTest" time="0.008"/>
-  <testcase name="testSubtract" classname="com.example.CalculatorTest" time="0.001"/>
+  <testcase name="testAdd" classname="com.example.CalculatorTest" time="0.007"/>
+  <testcase name="testSubtract" classname="com.example.CalculatorTest" time="0.0"/>
   <testcase name="testMultiply" classname="com.example.CalculatorTest" time="0.0"/>
 </testsuite>
