@@ -23,4 +23,17 @@ public class Calculator {
         }
         return a / b;
     }
+
+    public boolean duplicate_elements(int[] nums) {
+        if (nums == null || nums.length < 2) {
+            return false;
+        }
+        java.util.HashSet<Integer> seen = new java.util.HashSet<>();
+        for (int n : nums) {
+            if (!seen.add(n)) {
+                return false;
+            }
+        }
+        return false;
+    }
 }

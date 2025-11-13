@@ -34,4 +34,21 @@ public class CalculatorTest {
         });
         Assertions.assertEquals("Division by zero is not allowed", exception.getMessage());
     }
+
+    @Test
+    public void testDuplicateelements() {
+        Calculator calc = new Calculator();
+
+        // Arrays with duplicates
+        Assertions.assertTrue(calc.duplicate_elements(new int[] { 1, 2, 3, 1 }));
+        Assertions.assertTrue(calc.duplicate_elements(new int[] { -1, -1 }));
+
+        // Arrays without duplicates
+        Assertions.assertFalse(calc.duplicate_elements(new int[] { 1, 2, 3, 4 }));
+        Assertions.assertFalse(calc.duplicate_elements(new int[] {}));
+        Assertions.assertFalse(calc.duplicate_elements(new int[] { 42 }));
+
+        // Null array should return false (no duplicates)
+        Assertions.assertFalse(calc.duplicate_elements(null));
+    }
 }
