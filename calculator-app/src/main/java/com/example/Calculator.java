@@ -31,7 +31,7 @@ public class Calculator {
         java.util.HashSet<Integer> seen = new java.util.HashSet<>();
         for (int n : nums) {
             if (!seen.add(n)) {
-                return true;
+                return false;
             }
         }
         return false;
